@@ -5,7 +5,11 @@
 
 <body>
   <h1 style="text-align:center; color:orange;">{{$title}}</h1>
+  @if(isset($desc) && is_string($desc))
   <p>{{$desc}}</p>
+  @else
+  <p>Nessuna descrizione disponibile</p>
+  @endif
   <a href="/">
     << Torna indietro </a>
 </body>
