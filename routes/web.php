@@ -23,7 +23,7 @@ Route::get('/', function () {
     return view('home', $homeData);
 });
 
-Route::get('/html', function () {
+Route::get('/html_info', function () {
     $data = [
         "title" => "HTML",
         "desc" => "In informatica l'HyperText Markup Language (traduzione letterale: linguaggio a marcatori per ipertesti), comunemente noto con l'acronimo HTML, 
@@ -41,7 +41,7 @@ Route::get('/html', function () {
 })->name('html');
 
 
-Route::get('/css', function () {
+Route::get('/css_info', function () {
     $data = [
         "title" => "CSS",
         "desc" => "Il CSS (sigla di Cascading Style Sheets, in italiano fogli di stile a cascata), in informatica, è un linguaggio usato per definire la formattazione 
@@ -54,7 +54,7 @@ Route::get('/css', function () {
 })->name("css");
 
 
-Route::get('/js', function () {
+Route::get('/js_info', function () {
     $data = [
         "title" => "JS",
         "desc" => "In informatica JavaScript è un linguaggio di programmazione orientato agli oggetti e agli eventi, comunemente utilizzato nella programmazione Web 
@@ -69,7 +69,7 @@ Route::get('/js', function () {
 })->name("js");
 
 
-Route::get('/php', function () {
+Route::get('/php_info', function () {
     $data = [
         "title" => "PHP",
         "desc" => "PHP (acronimo ricorsivo di 'PHP: Hypertext Preprocessor', preprocessore di ipertesti; originariamente acronimo di 'Personal Home Page') è 
@@ -82,7 +82,7 @@ Route::get('/php', function () {
 })->name("php");
 
 
-Route::get('/sql', function () {
+Route::get('/sql_info', function () {
     $data = [
         "title" => "SQL",
         "listHeader" => "In informatica, SQL (Structured Query Language) (/skjuːˈɛl/ 'S-Q-L') è un linguaggio standardizzato per database basati sul modello relazionale (RDBMS), progettato per le seguenti operazioni:",
