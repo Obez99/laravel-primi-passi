@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $homeData = [
         "title" => "Home",
-        "text" => "Hello World"
+        "text" => "Hello World",
+        "contentList" => ["HTML", "CSS", "JS", "PHP", "SQL",]
     ];
 
     return view('home', $homeData);
