@@ -1,8 +1,8 @@
 <html>
 <head>
-  <title>Home</title>
+  <title>{{$title}}</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <h1>{{$text}}</h1>
 </body>
 </html>
