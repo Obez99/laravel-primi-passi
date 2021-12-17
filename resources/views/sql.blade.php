@@ -12,5 +12,7 @@
     @endforeach
   </ul>
   <p>{{$listFooter}}</p>
+  <a href="/">
+    << Torna indietro </a>
 </body>
 </html>

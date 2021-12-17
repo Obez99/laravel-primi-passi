@@ -17,7 +17,7 @@ Route::get('/', function () {
     $homeData = [
         "title" => "Home",
         "text" => "Hello World",
-        "contentList" => ["HTML", "CSS", "JS", "PHP", "SQL"]
+        "contentList" => ["html", "css", "js", "php", "sql"]
     ];
 
     return view('home', $homeData);
@@ -38,7 +38,7 @@ Route::get('/html', function () {
                     indipendentemente dalla piattaforma software utilizzata, e principalmente mirata all'espansione dei dispositivi mobili."
     ];
     return view('html', $data);
-});
+})->name('html');
 
 
 Route::get('/css', function () {
@@ -51,7 +51,7 @@ Route::get('/css', function () {
         il riutilizzo di codice ed una sua più facile manutenzione."
     ];
     return view('css', $data);
-});
+})->name("css");
 
 
 Route::get('/js', function () {
@@ -66,7 +66,7 @@ Route::get('/js', function () {
                     (ISO/IEC 16262)."
     ];
     return view('js', $data);
-});
+})->name("js");
 
 
 Route::get('/php', function () {
@@ -79,7 +79,7 @@ Route::get('/php', function () {
         è MediaWiki, su cui si basano i progetti wiki della Wikimedia Foundation come Wikipedia."
     ];
     return view('php', $data);
-});
+})->name("php");
 
 
 Route::get('/sql', function () {
@@ -95,4 +95,4 @@ Route::get('/sql', function () {
         "listFooter" => "A dispetto del nome, non si tratta perciò di un semplice linguaggio di interrogazione: alcuni suoi sottoinsiemi, infatti, permettono di creare, gestire e amministrare database."
     ];
     return view('sql', $data);
-});
+})->name("sql");

@@ -6,5 +6,7 @@
 <body>
   <h1 style="text-align:center; color:orange;">{{$title}}</h1>
   <p>{{$desc}}</p>
+  <a href="/">
+    << Torna indietro </a>
 </body>
 </html>
