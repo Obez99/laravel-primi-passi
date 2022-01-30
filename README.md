@@ -8,13 +8,13 @@
 </p>
 
 ## Setup
-- Clone this repository
-- Start your local server
-- Run ```composer install```
-- Run ```npm install```
-- Run ```npm run dev```
-- Run ```php artisan serve```
-- **You're all set up!**
+1. Clone this repository
+2. Start your local server
+3. Run ```composer install```
+4. Run ```npm install```
+5. Run ```npm run dev```
+6. Run ```php artisan serve```
+7. **You're all set up!**
 
 ## Description
 This is a simple laravel project made of various routes, each route brings you to the information of the chosen programming (or markup) language.
